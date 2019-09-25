@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/18/cf/fa/18cffaf04993b85052e3b8893d3db090.jpg" type="image/jpg">
+    <title>Главная</title>
+  </head>
+  <body>
+<header>
+  <div class="main">
+    <img id="Logo" src="http://vkclub.su/_data/stickers/gygyena/sticker_vk_gygyena_023.png" alt="Логотип" />
+  <h1>Шапка Логотип Таблица</h1>
+  </div>
+</header>
+<div>
+  <nav class="rules">
+    <a href="#List" title="Список">Список</a> |
+    <a href="#Form" title="Форма">Форма</a> |
+    <a href="#Table" title="Таблица">Таблица</a>
+  </nav>
+  </div>
+<div id="List" class="rules">
+    <h3>Список</h3>
+<ol>
+    <li> <a href="http://example.com">Вернуться на главную</a> </li>
+    <li> <a href="https://example.com">Вернуться на главную в протоколе https</a> </li>
+    <li> <a href="ftp://ftp.example.com">Ссылка на файл на сервере FTP без авторизации</a> </li>
+    <li> <a href="ftp://user:user123@example.com/Temp/test.txt">Ссылка на файл на сервере FTP c авторизации</a> </li>
+    <li> <a href="http://kubsu.ru/ru/education">Ссылка на фрагмент страницы kubsu.ru</a></li>
+    <li> <a href="#Form">Cсылка на фрагмент текущей страницы</a></li>
+    <li> <a href="http://example.com?product=phone&color=black">Ссылка с двумя параметрами URL</a> </li>
+    <li><ul>
+     <li> <a href="#List" title="Список">Список</a></li>
+     <li> <a href="#Form" title="Форма">Форма</a></li>
+     <li> <a href="#" title="Наверх">Наверх</a></li>
+ </ul></li>
+     <li> <a>Ссылка без href</a> </li>
+     <li> <a href="">Ссылка с пустым href</a></li>
+     <li> <a href="http://example.com" rel="nofollow">Ссылка, по которым запрещен переход поисковикам</a></li>
+     <li> <a href="http://example.com" rel="nofollow">Запрещенную для индексации поисковикам</a></li>
+     <li> Контекстная в <a href="http://example.com">тексте</a> абзаца</li>
+     <li> Ссылка-изображение<br><a href="http://example.com" target="_blank"><img src="http://www.picshare.ru/uploads/190910/UkjYd88Fzn.jpg" alt="пепе" width="200"></a></li>
+     <li>Ссылка из прямоугольных и круглых областей картинки (HTML-тег map)<br><img src="http://www.picshare.ru/uploads/190911/deLwQ1t6u5.jpg"
+      alt="Навигация по сайту"
+    usemap="#Navigation">
+    <map id="Navigation" name="Navigation">
+        <area shape="rect" coords="498,152,583,200" href="https://example.com/" alt="Квадрат">
+        <area shape = "circle" coords = "50,188,40" href = "https://example.com/" alt = "Круг" >
+    </map></li>
+     <li><a href="./example.html">Относительная на страницу в текущем каталоге</a></li>
+     <li><a href="./about/example.html">Относительная на страницу в каталоге about</a></li>
+     <li><a href="../example.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+     <li><a href="../../example.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+     <li><a href="/">Сокращенная ссылка на главную</a></li>
+     <li><a href="/example.html">Сокращенная ссылка на внутреннюю</a></li>
+   </ol></div>
+
+
+   <h3>Курс криптовалют за посление 5 дней</h3>
+   <div id="Table" class="rules">
+  <table class="table" border="1">
+    <tr class="first">
+      <th>Дата/Название</th>
+      <th>Курс биткойна</th>
+      <th>Курс лайткойна</th>
+      <th>Эфириум</th>
+    </tr>
+    <tr class="secound">
+      <td>20.09.2019</td>
+      <td rowspan="2">170,49B</td>
+      <td>4,13B</td>
+      <td>20,54B</td>
+    </tr>
+    <tr class="first">
+      <td>21.09.2019</td>
+      <td>180,95B</td>
+      <td>5,68B</td>
+    </tr>
+    <tr class="secound">
+      <td>22.09.2019</td>
+      <td>198,05B</td>
+      <td colspan="2">3,59B</td>
+    </tr>
+    <tr class="first">
+      <td>23.09.2019</td>
+      <td>165,25B</td>
+      <td>1,98B</td>
+      <td>40,32B</td>
+    </tr>
+    <tr class="secound">
+      <td>24.09.2019</td>
+      <td>199,05B</td>
+      <td>2,97B</td>
+      <td>65,30B</td>
+    </tr>
+   </table>
+   </div>
+   <div id="Form" class="rules">
+    <h2>Форма</h2>
+    <form method="post">
+      <label>
+        Введите имя:<br />
+        <input type="text" placeholder="Введите ваше Ф.И.О" required>
+      </label><br />
+      <label>
+        Введите ваш email:<br />
+        <input type="text" placeholder="Ваш email" required>
+      </label><br />
+      <label>
+        Введите вашу дату рождения:<br />
+        <input type= "date" required>
+      </label><br/>
+      <div>
+            Выберете пол <br>
+            <label>
+                <input type="radio" value="муж" name="sex"> муж
+            </label>
+            <label>
+                <input type="radio" value="жен" name="sex">жен
+            </label>
+        </div>
+<div>
+            Кол-во конечностей <br>
+            <label>
+                <input type="radio" value="1" name="Limbs">1
+            </label>
+            <label>
+                <input type="radio" value="2" name="Limbs">2
+            </label>
+            <label>
+                <input type="radio" value="3" name="Limbs">3
+            </label>
+            <label>
+                <input type="radio" value="4" name="Limbs">4
+            </label>
+        </div>
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Ливитация</option>
+        </select>
+      </label><br />
+      <br> Биография<br>
+        <textarea name="Biography" cols="30" rows="20"></textarea>
+        <br>
+        <label>
+            <input type="checkbox" name="С контрактом ознакомлен">
+            С контрактом ознакомлен
+        </label>
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+    </div>
+    <footer>
+     <p>(c) by Георгий Чайковский 2019 <p>
+    </footer>
+  </body>
+</html>
